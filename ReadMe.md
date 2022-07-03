@@ -3,7 +3,7 @@
 
 # 2.The functions of our project.
 Model Building
-![image](Pics/Model Building.png)
+![image](Pics/Model.png)
 Knowledge Extraction
 ![image](Pics/HomePage.png)
 
