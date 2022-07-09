@@ -1,0 +1,8 @@
+node {
+        stage('get code') {
+            checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'b9b370d7-37e2-4d24-af51-c8c959d91270', url: 'http://212.129.149.40/181250088_so-coin/backend-so-coin.git']]])
+        }
+        stage('build'){
+             sh"sh run.sh"
+        }
+}
