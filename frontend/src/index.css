@@ -1,0 +1,16 @@
+@import "~antd/dist/antd.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
+  background-color: transparent;
+  width: 2px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #666565;
+  border-radius: 2px;
+}
